@@ -8,13 +8,15 @@ use Examples\Examples;
 
 $examples = new Examples;
 
-// //Compile jrxml into .jasper
-$examples->compileExample();
+// // die("Aqui");
 
-// Processando o hello world
-$examples->processExample();
+// // //Compile jrxml into .jasper
+// $examples->compileExample();
 
-//Generate reports from a JSON file
-$examples->JsonExample();
+// // Processando o hello world
+// $examples->processExample();
 
-echo "Hello";
+// //Generate reports from a JSON file
+// $examples->JsonExample();
+
+echo "Reports Done!";
